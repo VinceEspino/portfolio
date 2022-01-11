@@ -1,0 +1,102 @@
+body {
+    background-color: #191919;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: Merriweather;
+    font-size: 1.5rem;
+}
+
+.colored-fonts {
+    color: #7bfdc7;    
+}
+
+.top-columns {
+    display: flex;
+    padding: 10% 5% 5%;
+}
+
+.top-columns > * {
+    flex-basis: 100%;
+}
+
+.top-h1 {
+    font-size: 5rem;
+    font-family: Merriweather;
+}
+
+.top-h2 {
+    font-size: 1.5rem;
+    font-family: Roboto;
+}
+
+.mid-container {
+    background-color: black;
+    padding: 5%;
+    font-family: Roboto;
+}
+
+.prof-pic-div {
+    padding-bottom: 5%;
+}
+
+.prof-pic {
+    height: 200px;
+    border-radius: 100%;
+}
+
+.projects {
+    padding: 10%;
+}
+
+.button {
+	background-color:#7bfdc7;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Merriweather;
+	font-size:25px;
+	padding:23px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.button:hover {
+	background-color: white;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+ .bot-container {
+     padding: 1%;
+ }
+
+ .footer {
+     display: flex;
+     padding: 1% 42%;
+ }
+
+ .footer > * {
+     flex-basis: 100%;
+ }
+
+ .footer a {
+     color: white;
+     text-decoration: none;
+ }
+
+ .footer a:hover {
+     color: #7bfdc7;
+ }
+
+ .copyright {
+     font-size: 0.8rem;
+     font-family: roboto;
+ }
+
+
